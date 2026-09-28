@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/isaacferrreira/Code/Home/DotNetDependencies/DotNetDependencies.csproj": {}
+  },
+  "projects": {
+    "/home/isaacferrreira/Code/Home/DotNetDependencies/DotNetDependencies.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/isaacferrreira/Code/Home/DotNetDependencies/DotNetDependencies.csproj",
+        "projectName": "DotNetDependencies",
+        "projectPath": "/home/isaacferrreira/Code/Home/DotNetDependencies/DotNetDependencies.csproj",
+        "packagesPath": "/home/isaacferrreira/.nuget/packages/",
+        "outputPath": "/home/isaacferrreira/Code/Home/DotNetDependencies/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/isaacferrreira/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/lib/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Humanizer": {
+              "target": "Package",
+              "version": "[3.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.31, 8.0.31]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.112/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
